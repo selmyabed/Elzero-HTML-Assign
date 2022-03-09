@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <audio controls autoplay loop muted>
+            <source src="test.mp3" type="audio/mpeg">
+            <source src="test.ogg" type="audio/ogg">
+            <source src="test.wav" type="audio/wav">
+            your browser doesnt support audio tag
+        </audio>
+        <video controls width="600" height="400" muted autoplay loop poster="test.jpg"> 
+            <source src="test.mp4" type="video/mp4">
+            <source src="test.ogg" type="video/ogg">
+            <track src="english.vtt" kind="subtitles" srclang="en" label="english">
+            <track src="french.vtt" kind="subtitles" srclang="fr" label="french">
+            <!-- search about preload -->
+            your browser doesnt support video tag
+        </video>
+    </body>
+</html>
